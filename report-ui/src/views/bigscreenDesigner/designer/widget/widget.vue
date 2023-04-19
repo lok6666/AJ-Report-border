@@ -52,7 +52,7 @@ import widgetWordCloud from "./wordcloud/widgetWordCloud";
 import widgetHeatmap from "./heatmap/widgetHeatmap";
 import widgetRadar from "./radar/widgetRadar";
 import widgetBarLineStackChart from "./barline/widgetBarLineStackChart";
-
+import widgetBorder1 from "./border/borderBox1.vue";
 export default {
   name: "Widget",
   components: {
@@ -85,7 +85,8 @@ export default {
     widgetWordCloud,
     widgetHeatmap,
     widgetRadar,
-    widgetBarLineStackChart
+    widgetBarLineStackChart,
+    widgetBorder1
   },
   model: {
     prop: "value",

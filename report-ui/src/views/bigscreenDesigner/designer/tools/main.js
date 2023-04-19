@@ -38,7 +38,7 @@ import { widgetWordCloud } from "./configure/wordcloudCharts/widget-word-cloud";
 import { widgetHeatmap } from "./configure/heatmap/widget-heatmap";
 import { widgetRadar } from "./configure/radarCharts/widget-radar";
 import { widgetBarLineStack } from "./configure/barlineCharts/widget-bar-line-stack";
-
+import { widgetBorder1 } from "./configure/border/widget-border-1";
 export const widgetTool = [
   // type=html类型的组件
   widgetText,
@@ -71,5 +71,6 @@ export const widgetTool = [
   widgetWordCloud,
   widgetHeatmap,
   widgetRadar,
-  widgetBarLineStack
+  widgetBarLineStack,
+  widgetBorder1
 ]
